@@ -14,22 +14,3 @@ const myTablet = gadgetFactory.createGadget("Tablet", {
 
 console.log(myLaptop);
 console.log(myTablet);
-
-// const { Pizza } = require('./creation/builderPattern')
-
-// const pizza = new Pizza()
-//   .addTomato()
-//   .addCheese()
-//   .addPineappleSlices(3)
-//   .addBaconStrips(4)
-//   .addOtherIngredients(['Pepperoni', 'Sausages'])
-//   .build()
-
-// const simplePizza = new Pizza()
-//   .addThinDough()
-//   .addPineappleSlices(5)
-//   .addOtherIngredients(['Ham'])
-//   .build()
-
-// console.log(pizza)
-// console.log(simplePizza)
