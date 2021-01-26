@@ -46,23 +46,19 @@ class Pizza {
     }
 }
 
-// let pizza = {
-//     tomato: false,
-//     sauce: false,
-//     thinDou: false,
-//     pineappleSlices: 0,
-//     baconStrips: 0,
-//     otherIngredients: []
-// }
+const pizza = new Pizza()
+  .addTomato()
+  .addCheese()
+  .addPineappleSlices(3)
+  .addBaconStrips(4)
+  .addOtherIngredients(['Pepperoni', 'Sausages'])
+  .build()
 
-// addTomato = () => pizza.tomato = true
-// addSauce = () => pizza.sauce = true
-// addThinDou = () => pizza.thinDou = true
-// addPineapple = (pineappleSlices) => pizza.pineappleSlices = pineappleSlices
-// addBaconStrips = (baconStrips) => pizza.baconStrips = baconStrips
-// addOtherIngredients = (additionalIngredients) => otherIngredients.push(additionalIngredients)
+const simplePizza = new Pizza()
+  .addThinDough()
+  .addPineappleSlices(5)
+  .addOtherIngredients(['Ham'])
+  .build()
 
-// const hawainaPizza = new pizza(true, true, false, 4, 5, ['jamon'])
-// console.log(hawainaPizza) 
-
-module.exports = { Pizza }
+console.log(pizza)
+console.log(simplePizza)
