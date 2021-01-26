@@ -1,0 +1,23 @@
+{
+  "name": "dessign-patterns",
+  "version": "1.0.0",
+  "description": "Basic examples of some dessign patterns ",
+  "main": "dessignPatterns.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpernus/dessign-patterns.git"
+  },
+  "keywords": [
+    "dessign",
+    "patterns"
+  ],
+  "author": "dpernus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpernus/dessign-patterns/issues"
+  },
+  "homepage": "https://github.com/dpernus/dessign-patterns#readme"
+}
